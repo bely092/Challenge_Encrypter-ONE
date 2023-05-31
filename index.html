@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    
+
+    <title>Challenge</title>
+
+<body>
+
+
+<main>
+
+<section class="contenedor">
+
+        <section id="contenedor-1">
+
+            
+        <div id="contenedor-logo">
+            <img src="src/logo.svg" alt="Logo" id="logo">
+        </div>
+        
+        <div id="campo-ingrese-texto">
+            <textarea name="" id="area" cols="30" rows="10" placeholder="Ingrese texto aqui" ></textarea>
+        </div>
+
+        <div id="campo-advertencia">
+            <img src="src/i.svg" alt="i">
+            <p >Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div id="campo-btn">
+            <input type="button" value="Encriptar" id="btn-1" onclick="encriptar()">
+            <input type="button" value="Desencriptar" id="btn-2" onclick="desencriptar()">
+
+        </div>
+
+
+        </section>
+
+    
+       <section id="contenedor-2">
+
+
+        <div id="campo-lateral">
+
+            <div id="caja-1">
+                
+                <div id="dibujo">
+                    <img src="src/imagen.svg" alt="imagen" id="img-1">     
+                </div>
+
+                <div id="caja-texto">
+    
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o Desencriptar</p>
+    
+                </div>
+            </div>
+    
+        </div>
+        <div id="campo-lateral-2" style="display: none;">
+
+            <div id="caja-2" >
+
+                <div id="mostrar-texto">                  
+
+                </div>
+
+                <div id="btn-copiar">
+                    <input type="button" value="Copiar" id="btn-3" onclick="copiarTexto()">
+                
+                </div>
+
+            </div>
+
+        </div>
+
+       </section>
+
+</section>
+
+
+
+
+</main>
+
+<footer> 
+    <ol id="lista-1">
+        <li>
+            <h5> Hecho por @bely092 </h5>
+        </li>
+    </ol>
+
+    <ol id="lista-2">
+        <li>
+            <a href="https://github.com/bely092"><img src="src/git.svg" height="60px" width="60px"></a>
+        </li>
+  
+        <li>
+            <a href="https://www.linkedin.com/in/belen-riquelme"><img src="src/link.svg" height="60px" width="60px"></a> 
+            
+        </li>
+     
+    </ol>
+
+        
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
